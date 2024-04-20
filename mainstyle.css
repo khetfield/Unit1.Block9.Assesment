@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: navy;
+}
+
+
+/* Nav style */
+.navigationbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    border-bottom: 2px solid yellow;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name {
+    text-align: center;
+    margin: auto;
+    flex-grow: 1;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#buttons {
+    margin-right: 20px;
+}
+#buttons a {
+    margin-left: 15px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Text style */
+#opener {
+    color: yellow;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    padding-top: 175px;
+}
+#blurb {
+    color: yellow;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+#quote {
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Kendall Image & Text */
+#kendall {
+    position: relative;
+    float: left;
+    padding-left: 20px;
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+
+
+/* Footer */
+#footerbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    border-top: 2px solid yellow;
+}
+#footerbar a {
+    display: inline-block;
+    margin: 0px;
+}
+.social_link {
+    width: 60px;
+    height: 30px;
+    margin-inline: 30px;
+    padding: 8px;
+}
